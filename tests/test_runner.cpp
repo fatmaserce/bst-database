@@ -3,9 +3,9 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "BST.h"
-#include "Record.h"
-#include "Engine.h"  // students implement parts here
+#include "../BST.h"
+#include "../Record.h"
+#include "../Engine.h"  // students implement parts here
 
 using std::cout;
 using std::endl;
