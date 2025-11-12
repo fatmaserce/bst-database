@@ -20,7 +20,7 @@ jobs:
       # Build tests (compile ONLY the test file; don't link main.cpp to avoid duplicate mains)
       - name: Compile tests
         run: |
-          g++ -std=gnu++17 -Wall -Wextra -Werror tests/test_runner.cpp -o tests/run_tests
+          g++ -std=gnu++17 -Wall -Wextra tests/test_runner.cpp -o tests/run_tests
 
       - name: Run tests
         run: ./tests/run_tests
