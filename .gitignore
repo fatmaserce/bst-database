@@ -1,41 +1,17 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Ignore compiled executables and temporary build files
+*.out
+*.exe
 *.o
 *.obj
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore test outputs
+/tests/run_tests
 
-# Linker files
-*.ilk
+# Ignore JSON files (for autograder logs or configs)
+*.json
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Ignore VSCode and system files
+.vscode/
+.DS_Store
+Thumbs.db
